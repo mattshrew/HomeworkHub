@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 // import About from '../components/About'
 import Faq from '../components/Faq'
 
-import img1 from '../assets/img/gallery/LetsCodePoster.PNG'
+import img1 from '../assets/img/gallery/LetsCodePoster.webp'
 import girl from '../assets/img/homepage/girl-studying-in-library.avif'
 
 

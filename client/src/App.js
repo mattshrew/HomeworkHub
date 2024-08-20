@@ -9,6 +9,7 @@ import Refugee from './pages/Refugee'
 import Volunteer from './pages/Volunteer'
 import BoardOfDirectors from './pages/BoardOfDirectors'
 import HighSchoolTeam from './pages/HighSchoolTeam'
+import LetsCodePython from './pages/LetsCodePython';
 import { block } from 'million/react'
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
           <Route path='/' element={<Homepage data={data}/>}></Route>
           <Route path='/refugee' element={<Refugee/>}></Route>
           <Route path='/volunteer' element={<Volunteer/>}></Route>
+          <Route path='/LetsCodePython' element={<LetsCodePython/>}></Route>
           <Route path='/board-of-directors' element={<BoardOfDirectors/>}></Route>
           <Route path='/team' element={<HighSchoolTeam/>}></Route>
 
