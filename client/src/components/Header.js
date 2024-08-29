@@ -68,12 +68,12 @@ const Header = () => {
                             <ul>
                                 <li><Link to="/team">Our High School Team</Link></li>
                                 <li><Link to="/board-of-directors">Our Board of Directors</Link></li>
-                                <li><Link to="#donors">Our Partners</Link></li>
-                                <li><Link to="#news">Our Features</Link></li>
+                                <li><Link to="/#donors">Our Partners</Link></li>
+                                <li><Link to="/#news">Our Features</Link></li>
                             </ul>
                         </li>
-                        <li><Link to="#real-testimonials">Testimonials</Link></li>
-                        <li><Link to="#donations">Donate</Link></li>
+                        <li><Link to="/#real-testimonials">Testimonials</Link></li>
+                        <li><Link to="/#donations">Donate</Link></li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>

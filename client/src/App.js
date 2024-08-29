@@ -1,16 +1,19 @@
 import './App.css';
 import React, { useEffect } from 'react';
 import Header from './components/Header';
-import AOS from 'aos'
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Routes, Route } from 'react-router';
 import Homepage from './pages/Homepage';
-import Refugee from './pages/Refugee'
-import Volunteer from './pages/Volunteer'
-import BoardOfDirectors from './pages/BoardOfDirectors'
-import HighSchoolTeam from './pages/HighSchoolTeam'
+import Refugee from './pages/Refugee';
+import Volunteer from './pages/Volunteer';
+import Unipanel from './pages/Unipanel';
+import BoardOfDirectors from './pages/BoardOfDirectors';
+import HighSchoolTeam from './pages/HighSchoolTeam';
 import LetsCodePython from './pages/LetsCodePython';
-import { block } from 'million/react'
+import { block } from 'million/react';
+
+import ScrollToAnchor from './components/ScrollToAnchor';
 
 const App = () => {
   const data = {
@@ -28,10 +31,13 @@ const App = () => {
       once: true,
       mirror: false,
     });
-  }, [])
+  }, []);
+
+
 
     return (
       <React.Fragment>
+        <ScrollToAnchor />
         <Header />
         
         <Routes>
@@ -41,6 +47,7 @@ const App = () => {
           <Route path='/LetsCodePython' element={<LetsCodePython/>}></Route>
           <Route path='/board-of-directors' element={<BoardOfDirectors/>}></Route>
           <Route path='/team' element={<HighSchoolTeam/>}></Route>
+          <Route path='/university-panel' element={<Unipanel/>}></Route>
 
         </Routes>
       </React.Fragment>
