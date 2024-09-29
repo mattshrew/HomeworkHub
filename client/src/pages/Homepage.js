@@ -9,6 +9,7 @@ import Sponsors from '../components/Sponsors'
 import News from '../components/News'
 import Testimonials from '../components/Testimonials'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
 
 import girl from '../assets/img/homepage/girl-studying-in-library.avif'
 
@@ -36,6 +37,8 @@ const Homepage = (props) => {
                 <News />
                 <Testimonials />
                 <Faq />
+                <Contact />
+
             </main>
         </>
     )

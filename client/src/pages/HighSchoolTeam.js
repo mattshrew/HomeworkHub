@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
 
 import Anne from '../assets/img/team/anne.webp'
 import Grace from '../assets/img/team/Grace Qiu.webp'
@@ -312,6 +313,8 @@ const HighSchoolTeam = () => {
           <Faq/>
         </div>
       </section>
+      <Contact />
+
     </>
   )
 }

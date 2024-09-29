@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 // import About from '../components/About'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
 
 import girl from '../assets/img/homepage/girl-studying-in-library.avif'
 import volunteer from '../assets/img/other/volunteer_photo.webp'
@@ -69,7 +70,8 @@ const Volunteer = () => {
             
             <main id="main">
                 <About />
-                {/* <Faq /> */}
+                <Contact />
+                {/* <Faq />       */}
             </main>
         </>
     )

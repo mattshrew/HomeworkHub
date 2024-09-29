@@ -1,6 +1,6 @@
 import React from 'react'
 import Collapsible from './Collapsible';
-
+import '../assets/css/style.css'
 
 const Faq = () => {
     return (

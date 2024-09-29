@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 // import About from '../components/About'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
 
 import img1 from '../assets/img/other/ukraine_refugee.webp'
 import img2 from '../assets/img/other/refugee_img_2.webp'
@@ -53,7 +54,9 @@ const Refugee = () => {
             
             <main id="main">
                 <About />
-                <Faq />
+                <Faq />      
+                <Contact />
+
             </main>
         </>
     )

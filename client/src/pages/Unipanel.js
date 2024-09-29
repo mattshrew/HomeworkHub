@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 // import About from '../components/About'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
 
 import Students from '../assets/img/other/university-students.webp';
 import UniApp from '../assets/img/other/uni-app.webp';
@@ -139,8 +140,10 @@ const Unipanel = () => {
       />
       
       <main id="main">
-          <About />
-          {/* <Faq /> */}
+          <About /> 
+          <Contact />
+          {/* <Faq />      
+*/}
       </main>
     </>
   )

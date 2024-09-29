@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 // import About from '../components/About'
 import Faq from '../components/Faq'
+import Contact from '../components/Contact'
 
 import img1 from '../assets/img/gallery/LetsCodePoster.webp'
 import girl from '../assets/img/homepage/girl-studying-in-library.avif'
@@ -60,6 +61,8 @@ const LetsCodePython = () => {
             <main id="main">
                 <About />
                 <Faq />
+                <Contact />
+
             </main>
         </>
     )

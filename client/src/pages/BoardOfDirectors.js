@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Faq from '../components/Faq'
-
+import Contact from '../components/Contact'
 import Paris from '../assets/img/team/Paris.webp'
 import Leah from '../assets/img/team/leah.webp'
 import Neha from '../assets/img/team/Neha.webp'
@@ -66,6 +66,7 @@ const BoardOfDirectors = () => {
           </div>
           </div>
       </section>
+      <Contact />
     </>
   )
 }
