@@ -12,7 +12,7 @@ import BoardOfDirectors from './pages/BoardOfDirectors';
 import HighSchoolTeam from './pages/HighSchoolTeam';
 import LetsCodePython from './pages/LetsCodePython';
 
-import ScrollToAnchor from './components/ScrollToAnchor';
+
 
 const App = () => {
   const data = {
@@ -36,7 +36,6 @@ const App = () => {
 
     return (
       <React.Fragment>
-        <ScrollToAnchor />
         <Header />
         
         <Routes>
