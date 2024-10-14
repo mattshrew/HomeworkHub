@@ -11,7 +11,6 @@ import Unipanel from './pages/Unipanel';
 import BoardOfDirectors from './pages/BoardOfDirectors';
 import HighSchoolTeam from './pages/HighSchoolTeam';
 import LetsCodePython from './pages/LetsCodePython';
-import { block } from 'million/react';
 
 import ScrollToAnchor from './components/ScrollToAnchor';
 
