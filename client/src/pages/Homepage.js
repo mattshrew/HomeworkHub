@@ -11,11 +11,11 @@ import Testimonials from '../components/Testimonials'
 import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 
-import girl from '../assets/img/homepage/girl-studying-in-library.avif'
+import girl from '../assets/img/homepage/paris-ted-talk.jpg'
 
 const Homepage = (props) => {
     return (
-        <>
+       <>    
             <Hero 
                 h1={{text: "Welcome to", underlined: "HomeworkHub!", reversed: false}} 
                 h2="Let's learn and teach together!"
@@ -26,7 +26,7 @@ const Homepage = (props) => {
                 ]}
                 img={girl}
             />
-            
+
             <main id="main">
                 <About data={props.data}/>
                 <Pricing />
