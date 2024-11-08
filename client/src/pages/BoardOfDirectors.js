@@ -3,8 +3,7 @@ import Hero from '../components/Hero'
 import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 import Paris from '../assets/img/team/Paris.webp'
-import Leah from '../assets/img/team/leah.webp'
-import Neha from '../assets/img/team/Neha.webp'
+import Gurman from '../assets/img/team/Gurman.webp'
 import girl from '../assets/img/homepage/girl-studying-in-library.avif'
 
 const BoardOfDirectors = () => {
@@ -39,22 +38,11 @@ const BoardOfDirectors = () => {
 
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
               <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <div class="pic" data-bioName="Neha"><img src={Neha} class="img-fluid tmpSize" alt="Neha Shanavas"/>
+                <div class="pic"><img src={Gurman} width="6000" class="img-fluid tmpSize" alt=""/>
                 </div>
                 <div class="member-info">
-                  <h4>Neha Shanavas</h4>
-                  <span>Director of Operations</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-5">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <div class="pic" data-bioName="Leah"><img src={Leah} class="img-fluid tmpSize" alt="Leah Cai"/>
-                </div>
-                <div class="member-info">
-                  <h4>Leah Cai</h4>
-                  <span>Director of Operations</span>
+                  <h4>Gurman Sahota</h4>
+                  <span>Board Member</span>
                 </div>
               </div>
             </div>
