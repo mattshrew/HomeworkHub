@@ -61,6 +61,9 @@ const Header = () => {
                                 <li>
                                     <Link to="/LetsCodePython">Let's Code: Python in 8 Weeks</Link>
                                 </li>
+                                <li>
+                                    <Link to="/ho-ho-homeworkhub">Ho Ho HomeworkHub</Link>
+                                </li>
                             </ul>
                         </li>
                         <li className="dropdown">

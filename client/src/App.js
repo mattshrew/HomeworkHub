@@ -11,6 +11,7 @@ import Unipanel from './pages/Unipanel';
 import BoardOfDirectors from './pages/BoardOfDirectors';
 import HighSchoolTeam from './pages/HighSchoolTeam';
 import LetsCodePython from './pages/LetsCodePython';
+import HoHoHomeworkhub from './pages/HoHoHomeworkhub';
 
 
 
@@ -46,6 +47,7 @@ const App = () => {
           <Route path='/board-of-directors' element={<BoardOfDirectors/>}></Route>
           <Route path='/team' element={<HighSchoolTeam/>}></Route>
           <Route path='/university-panel' element={<Unipanel/>}></Route>
+          <Route path='/ho-ho-homeworkhub' element={<HoHoHomeworkhub/>}></Route>
 
         </Routes>
       </React.Fragment>
