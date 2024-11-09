@@ -14,6 +14,7 @@ import code from '../assets/img/gallery/LetsCodePic.webp'
 import compassCodes from '../assets/img/gallery/compass_codes.webp'
 import laurier from '../assets/img/gallery/laurierevent.webp'
 import compassRide from '../assets/img/gallery/Compassrideevent.webp'
+import HoHoHomeworkhub2 from '../assets/img/gallery/HoHoHomeworkhub2.webp'
 import Slide from './Slide'
 
 // import Swiper JS
@@ -147,6 +148,16 @@ const Events = () => {
             width: 800, 
             alt: "compass codes meeting picture", 
             p: `Thank you to our community partner Compass Refugee for inviting HomeworkHub to their annual RIDE for Refuge event!`,
+        },
+        {
+            id: "intro", 
+            h1: "Ho Ho HomeworkHub 2023", 
+            image: HoHoHomeworkhub2, 
+            width: 800, 
+            alt: "ho ho homeworkhub group photo", 
+            p: `In December 2023, the HomeworkHub team proudly hosted our second "Ho Ho HomeworkHub" gift wrapping event, and for the first time, it was held in person! This event brought together our team, generous sponsors, and dedicated volunteers, all united by the spirit of giving. 
+            Thanks to everyone's efforts, we were able to donate over $2000 worth of gifts to students in need at our community partners: Compass Refugee, Healing of the Seven Generations, and the Angel's Project at Mill Courtland Community Center. The joy of giving was truly felt as these gifts were distributed, bringing smiles and holiday cheer to those who need it most.
+            We want to extend our deepest thanks to all the sponsors and volunteers who made this event possible. Your support helped create a memorable and impactful day for our community. We look forward to continuing this tradition and making an even bigger difference in the future!`,
         },
     ]
 
