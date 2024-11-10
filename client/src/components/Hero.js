@@ -28,7 +28,7 @@ const Hero = (props) => {
                                 <img src={props.img} className="img-fluid rounded" alt="" />
                             </a>
                             <p style={{ textAlign: 'center', marginTop: '10px' }}>
-                                From Classroom to Catalyst | Paris Cai | TEDxColumbia Lake Youth
+                                From Classroom to Catalyst | Paris Cai <br /> TEDxColumbia Lake Youth
                             </p>
                         </div>
                     ) : (
