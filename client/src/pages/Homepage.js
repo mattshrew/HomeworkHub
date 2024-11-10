@@ -17,6 +17,7 @@ const Homepage = (props) => {
     return (
        <>    
             <Hero 
+                showText={true}
                 h1={{text: "Welcome to", underlined: "HomeworkHub!", reversed: false}} 
                 h2="Let's learn and teach together!"
                 buttons={[

@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 
-import girl from '../assets/img/homepage/girl-studying-in-library.avif'
+import girl from '../assets/img/homepage/paris-ted-talk.jpg'
 
 import Priyanshi from '../assets/img/team/Priyanshi.webp'
 import Jimmy from '../assets/img/team/Jimmy.webp'
@@ -31,6 +31,7 @@ const HighSchoolTeam = () => {
   return (
     <>
       <Hero 
+        showText={true}
         h1={{text: "Volunteer at", underlined: "HomeworkHub!", reversed: false}} 
         h2="Let's learn and teach together!"
         buttons={[]}

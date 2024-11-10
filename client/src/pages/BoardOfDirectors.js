@@ -4,12 +4,13 @@ import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 import Paris from '../assets/img/team/Paris.webp'
 import Gurman from '../assets/img/team/Gurman.webp'
-import girl from '../assets/img/homepage/girl-studying-in-library.avif'
+import girl from '../assets/img/homepage/paris-ted-talk.jpg'
 
 const BoardOfDirectors = () => {
   return (
     <>
       <Hero 
+          showText={true}
           h1={{text: "Volunteer at", underlined: "HomeworkHub!", reversed: false}} 
           h2="Let's learn and teach together!"
           buttons={[]}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Hero = (props) => {
     return (
@@ -22,13 +22,18 @@ const Hero = (props) => {
                         </div>
                     </div>
                     <div className="col-lg-4 order-1 order-lg-2 hero-img mt-3" data-aos="zoom-out" data-aos-delay="300">                
-                        <a href="https://www.youtube.com/watch?v=IOreIGLN84c"><img
-                            src={props.img}
-                            className="img-fluid animated rounded" alt=""/>
-                        </a>
-                        <p style={{ textAlign: 'center', marginTop: '10px' }}>
-                            From Classroom to Catalyst | Paris Cai | TEDxColumbia Lake Youth
-                        </p>
+                    {props.showText ? (
+                        <>
+                            <a href="https://www.youtube.com/watch?v=IOreIGLN84c">
+                                <img src={props.img} className="img-fluid animated rounded" alt="" />
+                            </a>
+                            <p style={{ textAlign: 'center', marginTop: '10px' }}>
+                                From Classroom to Catalyst | Paris Cai | TEDxColumbia Lake Youth
+                            </p>
+                        </>
+                    ) : (
+                        <img src={props.img} className="img-fluid animated rounded" alt="" />
+                    )}
                     </div>
                 </div>
             </div>
