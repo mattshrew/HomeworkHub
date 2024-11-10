@@ -5,7 +5,7 @@ import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 
 import img1 from '../assets/img/gallery/LetsCodePoster.webp'
-import girl from '../assets/img/homepage/girl-studying-in-library.avif'
+import girl from '../assets/img/homepage/paris-ted-talk.jpg'
 
 
 const LetsCodePython = () => {
@@ -51,6 +51,7 @@ const LetsCodePython = () => {
     return (
         <>
             <Hero
+                showText={true}
                 h1={{text: "HomeworkHub’s", underlined: "Let's Code: Python in 8 Weeks!", reversed: false}}
                 buttons={[
                     // 

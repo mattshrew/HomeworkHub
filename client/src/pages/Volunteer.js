@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import Faq from '../components/Faq'
 import Contact from '../components/Contact'
 
-import girl from '../assets/img/homepage/girl-studying-in-library.avif'
+import girl from '../assets/img/homepage/paris-ted-talk.jpg'
 import volunteer from '../assets/img/other/volunteer_photo.webp'
 
 const Volunteer = () => {
@@ -62,6 +62,7 @@ const Volunteer = () => {
     return (
         <>
             <Hero 
+                showText={true}
                 h1={{text: "Volunteer at", underlined: "HomeworkHub!", reversed: false}} 
                 h2="Let's learn and teach together!"
                 buttons={[]}
