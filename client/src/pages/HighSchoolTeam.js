@@ -6,7 +6,7 @@ import Contact from '../components/Contact'
 import girl from '../assets/img/homepage/paris-ted-talk.jpg'
 
 import Priyanshi from '../assets/img/team/Priyanshi.webp'
-import Jimmy from '../assets/img/team/Jimmy.webp'
+import Jimmy from '../assets/img/team/Jimmy1.webp'
 
 import Leah from '../assets/img/team/Leah C.webp'
 import Krisha from '../assets/img/team/Krisha Raichura.webp'
